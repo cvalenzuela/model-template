@@ -52,7 +52,7 @@ setup_options = {
 @runway.setup(options=setup_options)
 def setup(opts):
     msg = '[SETUP] Ran with options: seed = {}, truncation = {}'
-    print('trigger build')
+    print('trigger build v2')
     print(msg.format(opts['seed'], opts['truncation']))
     model = ExampleModel(opts)
     return model
